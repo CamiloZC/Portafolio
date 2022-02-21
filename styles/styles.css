@@ -1,0 +1,110 @@
+.index{
+    background: rgb(221, 221, 221);
+}
+
+.projects{
+    background: rgb(221, 221, 221);
+}
+
+.divp {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.divh {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.navbarm {
+    background: #e0c6b0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: center;
+    margin-right: 45px;
+  }
+
+  .nav-menu-proyectos {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: center;
+    margin-right: 40px;
+  }
+
+  .nav-menu-index {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  
+  .nav-item {
+    height: 80px;
+  }
+  
+  .nav-links {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0rem 1rem;
+    height: 80px;
+  }
+  
+  .nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+
+  #comunidad-eia, #biorec, #paus-personal-care, #sobre-mi, #que-hago{
+      background: #e2d2c3;
+  }
+
+  .linea {
+    border-top: 5px solid black;
+    height: 10px;
+    max-width: 2000px;
+    padding: 0;
+    margin: 0px auto 0 auto;
+  }
+
